@@ -15,4 +15,7 @@ class RestController {
 
         return list
     }
+    @GetMapping("/")
+    fun getIndex() = News("Nic", "ciekawego", "tutaj", "niex", "znajdziesz")
+
 }
